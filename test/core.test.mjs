@@ -64,6 +64,9 @@ test("repository configuration is valid; editing the roster does not require cha
   validateConfig(shippedConfig);
 });
 test("configuration rejects unsafe addresses, duplicate IDs and unknown categories", () => {
+  const missingId = structuredClone(smaller());
+  delete missingId.servers[0].id;
+  assert.throws(() => validateConfig(missingId));
   for (const address of [
     "256.1.1.1:12",
     "127.0.0.1:0",

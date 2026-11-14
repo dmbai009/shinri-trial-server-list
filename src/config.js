@@ -21,6 +21,7 @@ export function validateConfig(config) {
   const categories = new Set();
   for (const category of config.categories) {
     if (
+      typeof category.id !== "string" ||
       !idPattern.test(category.id) ||
       category.id === "all" ||
       categories.has(category.id)
@@ -37,7 +38,7 @@ export function validateConfig(config) {
   const ids = new Set(),
     addresses = new Set();
   for (const server of config.servers) {
-    if (!idPattern.test(server.id) || ids.has(server.id))
+    if (typeof server.id !== "string" || !idPattern.test(server.id) || ids.has(server.id))
       throw new Error("Invalid or duplicate server ID");
     parseAddress(server.address);
     if (addresses.has(server.address))

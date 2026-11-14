@@ -1373,3 +1373,14 @@ dialog input {
 @media(max-width: 1000px) { .identity-map { display: flex; } }
 .footer a:hover { color: var(--accent); }
 @media(max-width: 520px) { .footer { flex-direction: column; } .footer-tag { display: inline-block; } }
+@media(min-width:1001px) {
+  .with-details .server-row { grid-template-columns: 22px minmax(170px,1fr) minmax(130px,170px) 75px 206px; }
+  .with-details .row-map { display: block; }
+  .with-details .row-map .map-name { white-space: normal; overflow-wrap: anywhere; font-size: 12px; }
+  .with-details .identity-map { display: none; }
+}
+@media(min-width:1001px) and (max-width:1250px) {
+  .with-details .server-row { grid-template-columns: minmax(0,1fr) 75px; }
+  .with-details .row-map { grid-column: 1/3; grid-row: 2; }
+  .with-details .row-actions { grid-row: 3; }
+}
