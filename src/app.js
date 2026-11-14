@@ -1,11 +1,7 @@
 import { validateConfig } from "./config.js";
-import {
-  stateOf,
-  snapshotIsValid,
-  validDate,
-  visibleServers,
-} from "./model.js";
+import { stateOf, validDate, visibleServers } from "./model.js";
 import { initialLanguage, messages, translate } from "./i18n.js";
+import { SnapshotClient, sourceIsValid } from "./snapshot-client.js";
 const $ = (selector) => document.querySelector(selector);
 const escape = (value) =>
   String(value ?? "").replace(
@@ -33,6 +29,9 @@ let config,
   failed = false,
   configFailed = false;
 let pollTimer, toastTimer;
+let source,
+  configFetchedAt = 0;
+const snapshotClient = new SnapshotClient();
 const cards = new Map();
 const t = (key, values) => translate(language, key, values);
 const locale = () => ({ en: "en-GB", ru: "ru-RU", uk: "uk-UA" })[language];
@@ -59,7 +58,7 @@ function exact(value) {
     : t("timeUnknown");
 }
 function setText(selector, text) {
-  $(selector).textContent = text;
+  if ($(selector).textContent !== String(text)) $(selector).textContent = text;
 }
 function showToast(text) {
   const toast = $("#toast");
@@ -173,15 +172,27 @@ function renderDrawer() {
   const html = `<div class="drawer-body"><div class="detail-status"><span class="server-status ${kind}"><span class="status-dot ${kind}"></span>${escape(t(kind))}</span><span class="category-tag">${escape(server.categories.map((id) => config.categories.find((c) => c.id === id)?.label).join(" · "))}</span></div>
     <h2 id="detail-name">${escape(data?.name || server.name)}</h2><div class="detail-address"><code>${escape(server.address)}</code><button class="address-copy" data-action="ip" aria-label="${escape(t("copyIP"))}">⧉</button></div>
     <div class="detail-actions"><a class="connect-button" data-action="connect" href="steam://connect/${escape(server.address)}">↗ ${escape(t("connect"))}</a><button class="console-button" data-action="command" title="${escape(t("copyCommand"))}" aria-label="${escape(t("copyCommand"))}">&gt;_</button></div>
-    ${kind === "stale" ? `<p class="notice">${escape(t("stale"))} · ${escape(t("lastGood", { time: relative(row.lastSuccessAt) }))}</p>` : ""}
-    <dl class="detail-facts"><div><dt>${escape(t("map"))}</dt><dd>${escape(data?.map || "—")}</dd></div><div><dt>${escape(t("players"))}</dt><dd>${escape(data?.numplayers ?? "—")} / ${escape(data?.maxplayers ?? "—")}</dd></div><div><dt>${escape(t("lastChecked"))}</dt><dd>${escape(exact(row?.checkedAt))}<small>${escape(relative(row?.checkedAt))}</small></dd></div><div><dt>${escape(t("lastSuccessful"))}</dt><dd>${escape(exact(row?.lastSuccessAt))}<small>${escape(relative(row?.lastSuccessAt))}</small></dd></div>${data?.password ? `<div><dt>${escape(t("password"))}</dt><dd>⌑</dd></div>` : ""}</dl>
-    <h3 class="players-heading">${escape(t("playerList"))}</h3><p class="player-note">${escape(t("playersSnapshot"))}</p>${players}</div>`;
+    ${kind === "stale" ? `<p class="notice">${escape(t("stale"))} · ${escape(t("lastGood", { time: exact(row.lastSuccessAt) }))}</p>` : ""}
+    <dl class="detail-facts"><div><dt>${escape(t("map"))}</dt><dd>${escape(data?.map || "—")}</dd></div><div><dt>${escape(t("players"))}</dt><dd>${escape(data?.numplayers ?? "—")} / ${escape(data?.maxplayers ?? "—")}</dd></div><div><dt>${escape(t("lastChecked"))}</dt><dd>${escape(exact(row?.checkedAt))}<small data-relative-time="${escape(row?.checkedAt)}"></small></dd></div><div><dt>${escape(t("lastSuccessful"))}</dt><dd>${escape(exact(row?.lastSuccessAt))}<small data-relative-time="${escape(row?.lastSuccessAt)}"></small></dd></div>${data?.password ? `<div><dt>${escape(t("password"))}</dt><dd>⌑</dd></div>` : ""}</dl>
+    <h3 class="players-heading">${escape(t("playerList"))}</h3><p class="player-note">${escape(t(kind === "stale" ? "stalePlayers" : "playersSnapshot"))}</p><div id="detail-players"></div></div>`;
   if (content._html !== html) {
     const scroll = $("#server-panel").scrollTop;
+    const previousPlayers = content.querySelector("#detail-players");
     content.innerHTML = html;
+    if (previousPlayers)
+      content.querySelector("#detail-players").replaceWith(previousPlayers);
     content._html = html;
     $("#server-panel").scrollTop = scroll;
   }
+  const playerContainer = content.querySelector("#detail-players");
+  if (playerContainer._html !== players) {
+    playerContainer.innerHTML = players;
+    playerContainer._html = players;
+  }
+  content.querySelectorAll("[data-relative-time]").forEach((element) => {
+    const text = relative(element.dataset.relativeTime);
+    if (element.textContent !== text) element.textContent = text;
+  });
   positionPanel();
 }
 function openServer(id) {
@@ -313,6 +324,20 @@ function renderNotice() {
     )
   )
     key = "noResponses";
+  const isStale =
+    snapshot?.generatedAt &&
+    Date.now() - Date.parse(snapshot.generatedAt) >
+      (config?.settings.staleAfterMinutes ?? 15) * 60000;
+  const signature = JSON.stringify([
+    key,
+    language,
+    isStale,
+    failed,
+    configFailed,
+    source?.diagnosticsUrl,
+  ]);
+  if (notice._signature === signature) return;
+  notice._signature = signature;
   notice.replaceChildren();
   notice.hidden = !key;
   if (key) {
@@ -321,6 +346,27 @@ function renderNotice() {
         t(key, { minutes: config?.settings.staleAfterMinutes }),
       ),
     );
+    if (isStale && key !== "staleNotice")
+      notice.append(
+        document.createTextNode(
+          " " +
+            t("staleNotice", { minutes: config?.settings.staleAfterMinutes }),
+        ),
+      );
+    if (
+      source?.diagnosticsUrl &&
+      /^https:\/\/github\.com\/[\w.-]+\/[\w.-]+\/actions\/workflows\/update-status\.yml$/.test(
+        source.diagnosticsUrl,
+      )
+    ) {
+      const link = document.createElement("a");
+      link.href = source.diagnosticsUrl;
+      link.textContent = t("diagnostics");
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.className = "diagnostics-link";
+      notice.append(document.createTextNode(" "), link);
+    }
     if (failed || configFailed) {
       const button = document.createElement("button");
       button.type = "button";
@@ -353,56 +399,68 @@ function enableAnalytics() {
   script.dataset.cfBeacon = JSON.stringify({ token });
   document.body.append(script);
 }
+function scheduleRefresh() {
+  clearTimeout(pollTimer);
+  if (document.hidden || !navigator.onLine) return;
+  pollTimer = setTimeout(
+    refresh,
+    snapshotClient.delay(config?.settings.pollSeconds ?? 60),
+  );
+}
 async function refresh() {
   if (busy) return;
+  if (!navigator.onLine) {
+    render();
+    return;
+  }
+  if (Date.now() < snapshotClient.retryAt) {
+    scheduleRefresh();
+    return;
+  }
   busy = true;
   $("#refresh").disabled = true;
   clearTimeout(pollTimer);
   try {
-    const configPromise = getJSON("servers.json")
-      .then(validateConfig)
-      .then((next) => {
-        const changed = JSON.stringify(config) !== JSON.stringify(next);
-        config = next;
-        configFailed = false;
-        if (changed) {
-          renderTabs();
-          render();
-          enableAnalytics();
-        }
-      })
-      .catch(() => {
-        configFailed = true;
-      });
-    const snapshotPromise = getJSON("data/status.json")
-      .then((next) => {
-        if (!snapshotIsValid(next)) throw new Error("Invalid snapshot");
-        // A stale CDN response must not roll statistics back to an older successful deployment.
-        if (
-          !snapshot?.generatedAt ||
-          (next.generatedAt &&
-            Date.parse(next.generatedAt) >= Date.parse(snapshot.generatedAt))
-        )
-          snapshot = next;
-        failed = false;
-      })
-      .catch(() => {
-        failed = true;
-      });
+    const configPromise =
+      !config || Date.now() - configFetchedAt >= 300000
+        ? getJSON("servers.json")
+            .then(validateConfig)
+            .then((next) => {
+              const changed = JSON.stringify(config) !== JSON.stringify(next);
+              config = next;
+              configFailed = false;
+              configFetchedAt = Date.now();
+              if (changed) {
+                renderTabs();
+                render();
+                enableAnalytics();
+              }
+            })
+            .catch(() => {
+              configFailed = true;
+            })
+        : Promise.resolve();
+    const snapshotPromise = (async () => {
+      if (!source) {
+        const descriptor = await getJSON("data/source.json");
+        if (!sourceIsValid(descriptor))
+          throw new Error("Invalid statistics source");
+        source = descriptor;
+      }
+      const result = await snapshotClient.read(source);
+      snapshot = result.snapshot;
+      failed = false;
+    })().catch((error) => {
+      console.warn("Statistics refresh failed:", error.message);
+      failed = true;
+    });
     await Promise.all([configPromise, snapshotPromise]);
   } finally {
     loading = false;
     busy = false;
     $("#refresh").disabled = false;
     render();
-    pollTimer = setTimeout(
-      () => {
-        if (document.hidden) {
-          pollTimer = setTimeout(refresh, 60000);
-        } else refresh();
-      },
-      (config?.settings.pollSeconds ?? 60) * 1000,
-    );
+    scheduleRefresh();
   }
 }
 $("#language").addEventListener("change", (event) => {
@@ -478,6 +536,7 @@ window.addEventListener("resize", positionPanel);
 window.addEventListener("online", refresh);
 window.addEventListener("offline", render);
 document.addEventListener("visibilitychange", () => {
+  clearTimeout(pollTimer);
   if (!document.hidden) refresh();
 });
 setInterval(() => {

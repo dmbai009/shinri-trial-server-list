@@ -1,11 +1,55 @@
 import { parseAddress } from "../src/config.js";
 import { validDate } from "../src/model.js";
+import { createHash } from "node:crypto";
 const text = (value, length = 200) =>
   typeof value === "string"
     ? value.replace(/[\u0000-\u001f\u007f]/g, "").slice(0, length)
     : "";
 const number = (value) =>
   Number.isFinite(value) && value >= 0 ? Math.floor(value) : null;
+const namesSignature = (data) =>
+  JSON.stringify(data?.players?.map((p) => p.name).sort() ?? null);
+const canonicalData = (data) =>
+  data
+    ? {
+        ...data,
+        players:
+          data.players?.toSorted(
+            (a, b) =>
+              a.name.localeCompare(b.name) ||
+              (a.score ?? 0) - (b.score ?? 0) ||
+              (a.time ?? 0) - (b.time ?? 0),
+          ) ?? null,
+      }
+    : null;
+export function contentChanges(servers, previous) {
+  let changedServers = 0,
+    changedPlayerCounts = 0,
+    changedPlayerLists = 0;
+  const contents = {};
+  for (const [id, row] of Object.entries(servers)) {
+    const old = previous?.servers?.[id];
+    const sameAddress =
+      old?.address === row.address &&
+      (old.queryPort ?? null) === (row.queryPort ?? null);
+    const before = sameAddress ? old.data : null;
+    contents[id] = canonicalData(row.data);
+    if (JSON.stringify(canonicalData(before)) !== JSON.stringify(contents[id]))
+      changedServers++;
+    if ((before?.numplayers ?? null) !== (row.data?.numplayers ?? null))
+      changedPlayerCounts++;
+    if (namesSignature(before) !== namesSignature(row.data))
+      changedPlayerLists++;
+  }
+  return {
+    changedServers,
+    changedPlayerCounts,
+    changedPlayerLists,
+    contentHash: createHash("sha256")
+      .update(JSON.stringify(contents))
+      .digest("hex"),
+  };
+}
 export function normalizeData(state) {
   const players = Array.isArray(state.players)
     ? state.players

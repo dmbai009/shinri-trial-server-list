@@ -1,5 +1,8 @@
 export const messages = {
   en: {
+    diagnostics: "Update diagnostics",
+    stalePlayers:
+      "This player list is outdated. See the last successful response above.",
     skip: "Skip to servers",
     language: "Interface language",
     totalServers: "Listed servers",
@@ -86,6 +89,9 @@ export const messages = {
     offline: "You are offline. Showing the last loaded snapshot.",
   },
   ru: {
+    diagnostics: "Диагностика обновлений",
+    stalePlayers:
+      "Список игроков устарел. Время последнего успешного ответа указано выше.",
     skip: "К списку серверов",
     language: "Язык интерфейса",
     totalServers: "Серверов в списке",
@@ -175,6 +181,9 @@ export const messages = {
       "Нет соединения с интернетом. Показан последний загруженный снимок.",
   },
   uk: {
+    diagnostics: "Діагностика оновлень",
+    stalePlayers:
+      "Список гравців застарів. Час останньої успішної відповіді зазначено вище.",
     skip: "До списку серверів",
     language: "Мова інтерфейсу",
     totalServers: "Серверів у списку",

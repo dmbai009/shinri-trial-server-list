@@ -1,0 +1,52 @@
+name: Update server statistics
+
+on:
+  schedule:
+    # Explicit UTC minutes; editing this expression re-registers the scheduler.
+    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - servers.json
+      - scripts/collect.mjs
+      - scripts/collector-core.mjs
+      - scripts/query-worker.mjs
+      - scripts/snapshot-store.mjs
+      - src/config.js
+      - src/model.js
+      - package.json
+      - package-lock.json
+      - .github/workflows/update-status.yml
+
+permissions:
+  contents: write
+concurrency:
+  group: server-statistics
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    env:
+      COLLECT_RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+      COLLECT_TRIGGER: ${{ github.event_name }}
+      COLLECT_REVISION: ${{ github.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+          cache: npm
+      - run: npm ci --omit=dev --no-audit --no-fund
+      - run: npm run validate
+      - name: Restore last successful server data
+        run: node scripts/snapshot-store.mjs restore
+      - name: Query all servers and report content changes
+        run: npm run collect
+      - name: Publish statistics to server-data only
+        run: node scripts/snapshot-store.mjs save
