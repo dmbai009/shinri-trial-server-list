@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "settings": {
+    "pollSeconds": 60,
+    "staleAfterMinutes": 15,
+    "cloudflareToken": "9f1aa70817d44fe38d3ec19e3dbde4e7"
+  },
+  "categories": [
+    {
+      "label": "RU",
+      "id": "ru"
+    },
+    {
+      "label": "Global",
+      "id": "global"
+    },
+    {
+      "label": "Media",
+      "id": "media"
+    }
+  ],
+  "servers": [
+    {
+      "id": "ru-1",
+      "address": "185.71.66.223:28015",
+      "name": "🚀 Общее лобби #1 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-11",
+      "address": "185.71.66.87:28015",
+      "name": "🚀 Общее лобби #2 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-2",
+      "address": "185.71.66.223:28017",
+      "name": "🚀 Общее лобби #3 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-12",
+      "address": "185.71.66.87:28016",
+      "name": "🚀 Общее лобби #4 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-3",
+      "address": "185.71.66.223:28019",
+      "name": "🚀 Общее лобби #5 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-13",
+      "address": "185.71.66.87:28017",
+      "name": "🚀 Общее лобби #6 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-4",
+      "address": "185.71.66.223:28021",
+      "name": "🚀 Общее лобби #7 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-14",
+      "address": "185.71.66.87:28018",
+      "name": "🚀 Общее лобби #8 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-6",
+      "address": "185.71.66.223:28023",
+      "name": "🚀 Общее лобби #9 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-15",
+      "address": "185.71.66.87:28019",
+      "name": "🚀 Общее лобби #10 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-8",
+      "address": "185.71.66.223:28098",
+      "name": "🚀 Общее лобби #11 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-16",
+      "address": "185.71.66.87:28020",
+      "name": "🚀 Общее лобби #12 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-9",
+      "address": "185.71.66.223:28100",
+      "name": "🚀 Общее лобби #13 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-17",
+      "address": "185.71.66.87:28021",
+      "name": "🚀 Общее лобби #14 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-10",
+      "address": "185.71.66.223:28102",
+      "name": "🚀 Общее лобби #15 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-18",
+      "address": "185.71.66.87:28022",
+      "name": "🚀 Общее лобби #16 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-5",
+      "address": "185.71.66.223:28022",
+      "name": "🚀 Общее лобби #17 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-19",
+      "address": "185.71.66.87:28023",
+      "name": "🚀 Общее лобби #18 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-7",
+      "address": "185.71.66.223:28024",
+      "name": "🚀 Общее лобби #19 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-20",
+      "address": "185.71.66.87:28024",
+      "name": "🚀 Общее лобби #20 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-21",
+      "address": "186.246.32.31:28015",
+      "name": "🚀 Общее лобби #21 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-22",
+      "address": "186.246.32.31:28016",
+      "name": "🚀 Общее лобби #22 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-23",
+      "address": "186.246.32.31:28017",
+      "name": "🚀 Общее лобби #23 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-24",
+      "address": "186.246.32.31:28018",
+      "name": "🚀 Общее лобби #24 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-25",
+      "address": "186.246.32.31:28019",
+      "name": "🚀 Общее лобби #25 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-26",
+      "address": "186.246.32.31:28020",
+      "name": "🚀 Общее лобби #26 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-27",
+      "address": "186.246.32.31:28021",
+      "name": "🚀 Общее лобби #27 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-28",
+      "address": "186.246.32.31:28022",
+      "name": "🚀 Общее лобби #28 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-29",
+      "address": "186.246.32.31:28023",
+      "name": "🚀 Общее лобби #29 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "ru-30",
+      "address": "186.246.32.31:28024",
+      "name": "🚀 Общее лобби #30 | Свободный вход",
+      "categories": ["ru"]
+    },
+    {
+      "id": "global-1",
+      "address": "203.23.179.220:27015",
+      "name": "Lobby #1 | Start Here",
+      "categories": ["global"]
+    },
+    {
+      "id": "global-2",
+      "address": "203.23.179.220:27016",
+      "name": "Lobby #2 | Start Here",
+      "categories": ["global"]
+    },
+    {
+      "id": "global-3",
+      "address": "203.23.179.220:27017",
+      "name": "Lobby #3 | Start Here",
+      "categories": ["global"]
+    },
+    {
+      "id": "global-4",
+      "address": "203.23.179.220:27018",
+      "name": "Lobby #4 | Start Here",
+      "categories": ["global"]
+    },
+    {
+      "id": "global-5",
+      "address": "203.23.179.220:27019",
+      "name": "Lobby #5 | Start Here",
+      "categories": ["global"]
+    },
+    {
+      "id": "global-6",
+      "address": "203.23.179.227:27036",
+      "name": "Lobby #6 | Start Here",
+      "categories": ["global"]
+    },
+    {
+      "id": "global-7",
+      "address": "203.23.179.227:27037",
+      "name": "Lobby #7 | Start Here",
+      "categories": ["global"]
+    },
+    {
+      "id": "global-8",
+      "address": "203.23.179.227:27038",
+      "name": "Lobby #8 | Start Here",
+      "categories": ["global"]
+    },
+    {
+      "id": "global-9",
+      "address": "203.23.179.227:27039",
+      "name": "Lobby #9 | Start Here",
+      "categories": ["global"]
+    },
+    {
+      "id": "global-10",
+      "address": "203.23.179.227:27040",
+      "name": "Lobby #10 | Start Here",
+      "categories": ["global"]
+    },
+    {
+      "id": "media-1",
+      "address": "185.71.66.223:28128",
+      "name": "ST - Media 1",
+      "categories": ["media"]
+    },
+    {
+      "id": "media-2",
+      "address": "185.71.66.223:28129",
+      "name": "ST - Media 2",
+      "categories": ["media"]
+    },
+    {
+      "id": "media-3",
+      "address": "185.71.66.223:28130",
+      "name": "ST - Media 3",
+      "categories": ["media"]
+    },
+    {
+      "id": "media-4",
+      "address": "185.71.66.223:28131",
+      "name": "ST - Media 4",
+      "categories": ["media"]
+    },
+    {
+      "id": "media-5",
+      "address": "185.71.66.223:28132",
+      "name": "ST - Media 5",
+      "categories": ["media"]
+    },
+    {
+      "id": "media-6",
+      "address": "185.71.66.223:28133",
+      "name": "ST - Media 6",
+      "categories": ["media"]
+    },
+    {
+      "id": "media-7",
+      "address": "185.71.66.223:28134",
+      "name": "ST - Media 7",
+      "categories": ["media"]
+    },
+    {
+      "id": "media-8",
+      "address": "185.71.66.223:28135",
+      "name": "ST - Media 8",
+      "categories": ["media"]
+    },
+    {
+      "id": "media-9",
+      "address": "185.71.66.223:28136",
+      "name": "ST - Media 9",
+      "categories": ["media"]
+    },
+    {
+      "id": "media-10",
+      "address": "185.71.66.223:28137",
+      "name": "ST - Media 10",
+      "categories": ["media"]
+    }
+  ]
+}

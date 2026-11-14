@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#10120f" />
+    <meta
+      name="description"
+      content="An independent community server browser for Shinri Trial in Garry’s Mod. Find your lobby and connect through Steam."
+    />
+    <title>Shinri Trial Server List</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./styles.css" />
+    <script type="module" src="./src/app.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#servers" data-i18n="skip">Skip to servers</a>
+    <header class="header shell">
+      <a class="brand" href="./" aria-label="Shinri Trial Server List">
+        <span
+          >Shinri<span class="brand-trial">Trial</span
+          ><small>SERVER LIST<span class="brand-dot">.</span></small></span
+        >
+      </a>
+      <div class="header-right">
+        <button id="copy-promo" class="header-promo" type="button">
+          <span data-i18n="promoCompact">Starting bonus · before level 5</span
+          ><span class="promo-code-line"
+            ><strong>dmbai</strong><span data-i18n="copyCode">Copy code</span
+            ><span aria-hidden="true">⧉</span></span
+          >
+        </button>
+        <label class="language-control"
+          ><span aria-hidden="true">◎</span
+          ><span class="sr-only" data-i18n="language">Interface language</span
+          ><select id="language">
+            <option value="en">EN</option>
+            <option value="ru">RU</option>
+            <option value="uk">UA</option>
+          </select></label
+        >
+      </div>
+    </header>
+    <main class="shell">
+      <section class="overview" aria-label="Server overview">
+        <div class="overview-item">
+          <span class="overview-icon" aria-hidden="true">▦</span>
+          <div>
+            <strong id="total-servers">—</strong
+            ><span data-i18n="totalServers">Listed servers</span>
+          </div>
+        </div>
+        <div class="overview-item">
+          <span class="overview-icon" aria-hidden="true">◉</span>
+          <div>
+            <strong id="available-servers">—</strong
+            ><span data-i18n="availableServers">Available servers</span>
+          </div>
+        </div>
+        <div class="overview-item">
+          <span class="overview-icon" aria-hidden="true">♧</span>
+          <div>
+            <strong id="total-players">—</strong
+            ><span data-i18n="playersOnline">Players in available lobbies</span>
+          </div>
+        </div>
+        <div class="overview-freshness">
+          <span class="status-dot" id="freshness-dot"></span>
+          <div>
+            <strong id="updated-at" data-i18n="awaitingSnapshot"
+              >Waiting for a snapshot</strong
+            ><span id="last-success" data-i18n="snapshotNote"
+              >Periodic snapshots · not realtime</span
+            >
+          </div>
+          <button
+            id="refresh"
+            class="icon-button"
+            type="button"
+            aria-label="Refresh snapshot"
+          >
+            ↻
+          </button>
+        </div>
+      </section>
+
+      <section
+        id="servers"
+        class="servers-section"
+        aria-labelledby="servers-title"
+      >
+        <div class="section-heading">
+          <h1 id="servers-title" data-i18n="serversTitle">Server directory</h1>
+        </div>
+        <div class="toolbar">
+          <nav
+            class="tabs"
+            id="categories"
+            aria-label="Server categories"
+          ></nav>
+          <label class="search"
+            ><span aria-hidden="true">⌕</span
+            ><input
+              id="search"
+              type="search"
+              placeholder="Search servers or maps…"
+              autocomplete="off"
+              aria-label="Search servers or maps"
+          /></label>
+        </div>
+        <div class="results-line">
+          <span id="result-count"></span
+          ><label class="available-filter"
+            ><input id="only-available" type="checkbox" /><span
+              class="switch"
+              aria-hidden="true"
+            ></span
+            ><span data-i18n="onlyAvailable">Available only</span></label
+          >
+        </div>
+        <div id="notice" class="notice" role="status" hidden></div>
+        <div class="catalog-content">
+          <div id="server-grid" class="server-grid" aria-busy="true"></div>
+          <aside
+            id="server-panel"
+            class="server-panel"
+            aria-labelledby="detail-name"
+            hidden
+          >
+            <div class="drawer-top">
+              <span class="eyebrow" data-i18n="serverDetails"
+                >Server details</span
+              ><button
+                type="button"
+                id="close-server"
+                class="icon-button"
+                aria-label="Close"
+              >
+                ×
+              </button>
+            </div>
+            <div id="server-detail-content"></div>
+          </aside>
+        </div>
+        <div id="empty" class="empty-state" hidden>
+          <span aria-hidden="true">⌕</span>
+          <h3 data-i18n="emptyTitle">No lobbies found</h3>
+          <p data-i18n="emptyText">Try another search or category.</p>
+          <button
+            id="clear-filters"
+            class="secondary-button"
+            data-i18n="clearFilters"
+          >
+            Reset filters
+          </button>
+        </div>
+        <p class="data-note">
+          <span aria-hidden="true">ⓘ</span
+          ><span data-i18n="dataNote"
+            >Availability is based on the latest query. Open a server to see its
+            details and player list. You can still try connecting to a server
+            that did not respond.</span
+          >
+        </p>
+      </section>
+
+      <section class="help-section">
+        <div>
+          <h3 data-i18n="helpTitle">How to connect?</h3>
+          <p data-i18n="helpText">
+            Install Steam and Garry’s Mod, then choose Connect. If Steam does
+            not open, copy the console command from the server card and paste it
+            into the Garry’s Mod console.
+          </p>
+        </div>
+        <div class="about">
+          <h3 data-i18n="aboutTitle">About this browser</h3>
+          <p data-i18n="aboutText">
+            An independent community project. Not affiliated with or endorsed by
+            the developers of Shinri Trial. Server names and player lists come
+            from public game server queries. No launcher or account is needed.
+          </p>
+          <p id="config-updated"></p>
+          <p data-i18n="privacy">
+            Language preferences are stored on your device. This site uses
+            Cloudflare Web Analytics when configured; it does not store visitor
+            IP addresses itself.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer shell">
+      <div>
+        <span class="footer-brand">SHINRI <span>TRIAL</span></span
+        ><span data-i18n="footerNotice"
+          >Independent, unofficial project. Not affiliated with the management
+          or developers of Shinri Trial.</span
+        >
+      </div>
+      <span class="footer-tag"
+        >GARRY’S MOD <span aria-hidden="true">↗</span></span
+      >
+    </footer>
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+    <dialog id="copy-dialog">
+      <form method="dialog">
+        <button class="dialog-close icon-button" aria-label="Close">×</button>
+        <h3 data-i18n="manualCopy">Copy manually</h3>
+        <p data-i18n="manualCopyText">Select the text below and copy it.</p>
+        <input id="copy-value" readonly aria-label="Text to copy" /><button
+          class="secondary-button"
+          data-i18n="close"
+        >
+          Close
+        </button>
+      </form>
+    </dialog>
+    <noscript
+      ><p class="noscript">
+        Please enable JavaScript to load the server directory. / Включите
+        JavaScript для просмотра серверов.
+      </p></noscript
+    >
+  </body>
+</html>

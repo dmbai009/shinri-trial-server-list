@@ -1,0 +1,23 @@
+{
+  "name": "shinri-trial-server-list",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent Shinri Trial community server browser",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "validate": "node scripts/validate.mjs",
+    "test": "node --test",
+    "collect": "node scripts/collect.mjs",
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "gamedig": "5.3.3"
+  },
+  "overrides": {
+    "fast-xml-parser": "5.12.1"
+  }
+}
