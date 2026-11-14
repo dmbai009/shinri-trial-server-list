@@ -13,7 +13,6 @@ An independent, unofficial server browser for **Shinri Trial in Garry's Mod**. I
 - Steam connection links, copyable IP addresses and `connect IP:PORT` commands, with a manual-copy fallback.
 - A compact, copyable `dmbai` promo code. New players must activate it **before reaching level 5**.
 - Honest snapshot timestamps, individual last-success times, automatic refresh and outdated-data warnings. No displayed or stored ping.
-- Optional Cloudflare Web Analytics, without a custom visitor database.
 
 ## Technology and data flow
 
@@ -27,7 +26,7 @@ browser                       → Raw GitHub CDN           → server-data/statu
 
 These are **independent workflows with separate concurrency groups and permissions**:
 
-- **Update server statistics** (`update-status.yml`) queries servers about every five minutes, on relevant collector/configuration changes, or manually. It restores the last snapshot and writes **only** to `server-data`. It does not build, upload artifacts, deploy Pages, or commit to `main`.
+- **Update server statistics** (`update-status.yml`) collects server statistics when triggered, on relevant collector/configuration changes, or manually. The published site normally receives a new snapshot about every five minutes. It restores the last snapshot and writes **only** to `server-data`. It does not build, upload artifacts, deploy Pages, or commit to `main`.
 - **Deploy website** (`deploy.yml`) builds and deploys only on frontend/configuration/build changes in `main`, or manually. It never queries game servers and does not need permission to modify repository contents. README-only edits and statistics updates do not redeploy the site.
 - The existing pull-request workflow only checks changes; it cannot publish data or the site.
 
@@ -44,8 +43,8 @@ Queries run in up to ten independent child processes. Each has a 2-second packet
 1. Create a **public** GitHub repository and push these files to its `main` branch (or fork this repository).
 2. In **Settings → Pages → Build and deployment**, select **GitHub Actions** as the source. Do not select branch deployment.
 3. Allow GitHub Actions and the workflow's declared permissions: `contents: write` for the generated snapshot branch; `pages: write` and `id-token: write` for deployment. No personal access token or repository secret is required. The statistics job alone has `contents: write`; the deploy job has `pages: write` and `id-token: write`.
-4. Open **Actions → Update server statistics → Run workflow**, then **Deploy website → Run workflow**. Forked repositories may need scheduled workflows explicitly enabled.
-5. Open the URL in the completed deployment. Subsequent `servers.json` commits trigger statistics collection and publication of the updated configuration. Later scheduled checks update only the data branch.
+4. Open **Actions → Update server statistics → Run workflow**, then **Deploy website → Run workflow**.
+5. Open the URL in the completed deployment. Subsequent `servers.json` commits trigger statistics collection and publication of the updated configuration. Subsequent statistics checks update only the data branch. Forks need their own periodic trigger for the statistics workflow.
 
 If your organization restricts Actions or branch writes, allow this workflow to update the dedicated `server-data` branch. Keep `main` as the default branch; otherwise update the workflow branch references.
 
@@ -53,11 +52,11 @@ All URLs are relative, so project URLs such as `https://USERNAME.github.io/REPOS
 
 The static build fingerprints CSS, JavaScript and module imports to prevent browsers from mixing frontend files from different deployments. Snapshot-only updates reuse the same code fingerprint.
 
-### Free operation and scheduling limits
+### Free operation and data freshness
 
 Use a public repository and the standard `ubuntu-latest` runner. [GitHub documents free standard runner usage for public repositories](https://docs.github.com/en/billing/concepts/product-billing/github-actions). The workflow retains the small Pages artifact for one day and does not upload diagnostic artifacts or cache every snapshot.
 
-[Scheduled Actions](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule) have a minimum five-minute interval, can be delayed or dropped during high load, and can be disabled after 60 days of repository inactivity. This is **not realtime or a guaranteed five-minute service**. The schedule uses the standard `*/5 * * * *` UTC expression. If updates stop, inspect the workflow event history, re-enable the workflow if disabled and run **Update server statistics** manually. The website warns when data is over 15 minutes old and links directly to collection diagnostics. Splitting workflows does not turn GitHub’s best-effort scheduler into a guaranteed timer; a strict unattended five-minute SLA requires an independent external scheduler, which this project does not silently provision.
+Statistics are periodic snapshots, not realtime data. Collection timing, workflow queues and CDN propagation can add delays. The website warns when data is over 15 minutes old and links to collection diagnostics. If updates stop, inspect the workflow history and run **Update server statistics** manually.
 
 Publishing with a custom Actions workflow avoids the standard [Pages limit of ten branch builds per hour](https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits). Normal Pages usage limits still apply. Keep the project within the free plan and normal service limits; no paid service is required.
 
@@ -70,8 +69,7 @@ Edit **`servers.json`** in GitHub's web editor or locally. No website-code chang
   "schemaVersion": 1,
   "settings": {
     "pollSeconds": 60,
-    "staleAfterMinutes": 15,
-    "cloudflareToken": ""
+    "staleAfterMinutes": 15
   },
   "categories": [
     { "id": "ru", "label": "RU" },
@@ -120,18 +118,6 @@ Player names come from public A2S_PLAYER responses and can be incomplete, anonym
 
 The dedicated **`server-data` branch is generated and must not contain hand-edited files**. Each update replaces that branch with a parentless commit containing only the latest snapshot, using a force-with-lease guard. This avoids accumulating a permanent reachable history of player names and hundreds of daily source commits. Source configuration, documentation and code on `main` remain untouched. GitHub may retain unreachable objects according to its own retention policy.
 
-## Cloudflare Web Analytics
-
-The owner's beacon token is already configured. For your own fork, **replace or clear `settings.cloudflareToken`** to avoid attributing your visitors to the original analytics site.
-
-1. In Cloudflare, open **Web Analytics → Add a site** and enter your Pages hostname.
-2. Copy the 32-character public `token` from the provided snippet into `settings.cloudflareToken`.
-3. Commit the change. The site loads Cloudflare's official beacon automatically after configuration loads. No additional snippet, DNS proxy, secret key or server is needed. Localhost previews do not load analytics.
-
-The token is a public beacon identifier, not a private API credential. Leave it empty to disable analytics on subsequent page loads. See [Cloudflare setup instructions for sites not proxied through Cloudflare](https://developers.cloudflare.com/web-analytics/get-started/).
-
-Cloudflare provides aggregate page-view and visitor metrics and supported geographic/referrer dimensions. The project does not store visitor IPs or use a visitor database. The only local preference is the chosen language. **Custom connection-click tracking is not included**; the project does not pretend Cloudflare Web Analytics supports an invented custom-event API.
-
 ## Local development and checks
 
 Requires Node.js 24 and npm. Players need neither.
@@ -163,15 +149,10 @@ The public `https://api.shinri.red/games/servers/2/connect` endpoint was checked
 
 - **No site:** select GitHub Actions in Pages settings and inspect the **Deploy website** workflow's deploy job.
 - **Snapshot branch write rejected:** allow the job's `contents: write` permission and writes to `server-data`. Do not disable the lease check or overwrite `main`.
-- **Old data:** inspect Actions, enable disabled schedules, and run **Update server statistics** manually. Check its `collection` summary: trigger, previous snapshot, interval, actual payload/name/count changes, and content hash. Missing schedule events indicate a dispatch problem; failed jobs identify a collector/store problem; a fresh branch but an older CDN response indicates propagation delay. GitHub scheduling and CDN propagation are not immediate.
+- **Old data:** inspect Actions and run **Update server statistics** manually. Check its `collection` summary: trigger, previous snapshot, interval, actual payload/name/count changes, and content hash. Missing expected runs indicate a trigger problem; failed jobs identify a collector/store problem; a fresh branch but an older CDN response indicates propagation delay. GitHub scheduling and CDN propagation are not immediate.
 - **All servers stop responding:** runners may be filtered by the game host or the host may be unavailable. Old successful results remain explicitly outdated; Steam connections are still offered. The workflow logs how many servers replied.
 - **Player list unavailable:** the server may disable/hide public names. Total population can still be available.
 - **Clipboard blocked:** the manual-copy dialog contains the exact IP, console command or promo code.
 
 No accounts, launcher, private APIs, paid hosting or persistent custom server are required.
 
-## Incident diagnosis: 14 November 2026
-
-See [the incident record](docs/incident-2026-11-14.md) for evidence of the original outage and the distinction between scheduler dispatch, collection, storage and frontend delivery. A manual recovery proved changes to both player counts and public names; timestamps alone were not used as proof of recovery.
-
-Every collection writes a GitHub Actions job summary and structured `collection` metadata in `status.json`. Long gaps and all-server failures emit workflow warnings. A failed fetch is never allowed to advance the last-success time. An unchanged payload can be legitimate, so the workflow reports changes rather than inventing activity or failing quiet servers.

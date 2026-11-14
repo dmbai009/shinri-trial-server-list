@@ -1,9 +1,6 @@
 name: Update server statistics
 
 on:
-  schedule:
-    # Standard UTC cadence; changing the expression re-registers the scheduler.
-    - cron: "*/5 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
