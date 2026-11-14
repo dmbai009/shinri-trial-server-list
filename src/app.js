@@ -93,7 +93,7 @@ function translatePage() {
   $("#copy-value").ariaLabel = t("manualCopy");
   $(".dialog-close").ariaLabel = t("close");
   $("#close-server").ariaLabel = t("close");
-  $("#copy-promo").title = `${t("supportAuthor")}. ${t("promoText")}`;
+  $("#copy-starter-code").title = `${t("supportAuthor")}. ${t("promoText")}`;
   renderTabs();
   render();
 }
@@ -492,7 +492,7 @@ $("#clear-filters").addEventListener("click", () => {
   $("#search").focus();
 });
 $("#refresh").addEventListener("click", refresh);
-$("#copy-promo").addEventListener("click", () => copy("dmbai", "copiedPromo"));
+$("#copy-starter-code").addEventListener("click", () => copy("dmbai", "copiedPromo"));
 document.addEventListener("click", (event) => {
   const button = event.target.closest("[data-action]");
   if (!button || !config) return;
