@@ -43,6 +43,8 @@ If your organization restricts Actions or branch writes, allow this workflow to 
 
 All URLs are relative, so project URLs such as `https://USERNAME.github.io/REPOSITORY/` work without a base-path setting. To use a custom domain, configure it in GitHub Pages and add a `CNAME` file to `dist/` in `scripts/build.mjs`.
 
+The static build fingerprints CSS, JavaScript and module imports to prevent browsers from mixing frontend files from different deployments. Snapshot-only updates reuse the same code fingerprint.
+
 ### Free operation and scheduling limits
 
 Use a public repository and the standard `ubuntu-latest` runner. [GitHub documents free standard runner usage for public repositories](https://docs.github.com/en/billing/concepts/product-billing/github-actions). The workflow retains the small Pages artifact for one day and does not upload diagnostic artifacts or cache every snapshot.
