@@ -5,7 +5,7 @@ import {
   snapshotURL,
   sourceIsValid,
 } from "../src/snapshot-client.js";
-import { contentChanges } from "../scripts/collector-core.mjs";
+import { collectSnapshot, contentChanges } from "../scripts/collector-core.mjs";
 const source = {
   schemaVersion: 1,
   statusUrl:
@@ -140,4 +140,13 @@ test("diagnostic content hashes exclude timestamps but detect real names and pop
   assert.notEqual(namesChanged.contentHash, baseline.contentHash);
   const populationChanged = contentChanges({ one: row(3, ["A", "B"]) }, old);
   assert.equal(populationChanged.changedPlayerCounts, 1);
+});
+test("a fresh info response without public names never reuses an old player list", async () => {
+  const config = { servers: [{id:"one",address:"1.2.3.4:27015"}] };
+  const previous = snapshot(new Date(at-300000).toISOString(),1,["Old name"]);
+  const next = await collectSnapshot(config,previous,async()=>({name:"Lobby",map:"trial",numplayers:2,maxplayers:100}),{now:()=>new Date(at).toISOString()});
+  assert.equal(next.servers.one.status,"online");
+  assert.equal(next.servers.one.data.numplayers,2);
+  assert.equal(next.servers.one.data.players,null);
+  assert.equal(next.servers.one.lastSuccessAt,new Date(at).toISOString());
 });
