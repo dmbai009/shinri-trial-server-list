@@ -1371,3 +1371,5 @@ dialog input {
 .identity-map .map-name { font-size: 12px; white-space: normal; overflow-wrap: anywhere; }
 .with-details .identity-map { display: flex; }
 @media(max-width: 1000px) { .identity-map { display: flex; } }
+.footer a:hover { color: var(--accent); }
+@media(max-width: 520px) { .footer { flex-direction: column; } .footer-tag { display: inline-block; } }
