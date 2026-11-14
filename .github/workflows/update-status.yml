@@ -2,8 +2,8 @@ name: Update server statistics
 
 on:
   schedule:
-    # Explicit UTC minutes; editing this expression re-registers the scheduler.
-    - cron: "2,7,12,17,22,27,32,37,42,47,52,57 * * * *"
+    # Standard UTC cadence; changing the expression re-registers the scheduler.
+    - cron: "*/5 * * * *"
   workflow_dispatch:
   push:
     branches: [main]
