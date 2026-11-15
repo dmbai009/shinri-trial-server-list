@@ -98,7 +98,7 @@ Edit **`servers.json`** in GitHub's web editor or locally. No website-code chang
 
 `pollSeconds` must be 30–3600 and controls only browser JSON checks, not game-server queries. The configuration itself is rechecked every five minutes. `staleAfterMinutes` must be 5–1440. JSON does not support comments or trailing commas. `npm run validate` checks the configuration; the workflows fail safely on invalid input and leave previously published data and the previous deployment available. Tests use a separate roster fixture, so you can freely edit the live server list.
 
-The initial roster contains 30 RU, 10 Global (`203.*`) and 10 Media servers. A server can appear in several tabs without being queried twice.
+The roster contains 30 RU, 10 Global (`203.*`), 10 Media and 24 story servers (the `Сюжетные` category). Story lobbies are configured in numeric order: 1–23, then 25; no address for lobby 24 has been supplied. A server can appear in several tabs without being queried twice.
 
 ## Snapshot semantics
 
@@ -155,4 +155,3 @@ The public `https://api.shinri.red/games/servers/2/connect` endpoint was checked
 - **Clipboard blocked:** the manual-copy dialog contains the exact IP, console command or promo code.
 
 No accounts, launcher, private APIs, paid hosting or persistent custom server are required.
-

@@ -17,6 +17,10 @@
     {
       "label": "Media",
       "id": "media"
+    },
+    {
+      "id": "story",
+      "label": "Сюжетные"
     }
   ],
   "servers": [
@@ -319,6 +323,150 @@
       "address": "185.71.66.223:28137",
       "name": "ST - Media 10",
       "categories": ["media"]
+    },
+    {
+      "id": "story-1",
+      "address": "185.71.66.223:28045",
+      "name": "ST #1 - Мы же друзья, так? (#1588)",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-2",
+      "address": "185.71.66.223:28046",
+      "name": "ST #2 - Компания Надежда: Пора платить (#1589)",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-3",
+      "address": "185.71.66.223:28047",
+      "name": "ST - Игровой 3",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-4",
+      "address": "185.71.66.223:28048",
+      "name": "ST - Игровой 4",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-5",
+      "address": "185.71.66.223:28049",
+      "name": "ST - Игровой 5",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-6",
+      "address": "185.71.66.223:28050",
+      "name": "ST #6 - Суд и Магия! [Ребут]",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-7",
+      "address": "185.71.66.223:28051",
+      "name": "ST #7 - Город проклятых",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-8",
+      "address": "185.71.66.223:28052",
+      "name": "ST #8 - Это несправедливо",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-9",
+      "address": "185.71.66.223:28053",
+      "name": "ST #9 - сихиотрическое отделение #5",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-10",
+      "address": "185.71.66.223:28054",
+      "name": "ST #10 - No, I'm not a Human: Сессия №3",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-11",
+      "address": "185.71.66.223:28143",
+      "name": "ST #11 - Умрите же!",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-12",
+      "address": "185.71.66.223:28144",
+      "name": "ST #12 - Безумие Ядерного мира",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-13",
+      "address": "185.71.66.223:28145",
+      "name": "ST #13 - PROJECT: HUMAN ERROR",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-14",
+      "address": "185.71.66.223:28146",
+      "name": "ST #14 - Наш выбор",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-15",
+      "address": "185.71.66.223:28147",
+      "name": "ST - Игровой 15",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-16",
+      "address": "185.71.66.223:28115",
+      "name": "ST #16 - Дежавю",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-17",
+      "address": "185.71.66.223:28116",
+      "name": "ST - Игровой 17",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-18",
+      "address": "185.71.66.223:28117",
+      "name": "ST - Игровой 18",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-19",
+      "address": "185.71.66.223:28118",
+      "name": "ST #19 - Весёлые трудовые каникулы",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-20",
+      "address": "185.71.66.223:28119",
+      "name": "ST #20 - Последний дубль!",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-21",
+      "address": "185.71.66.223:28120",
+      "name": "ST - Игровой 21",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-22",
+      "address": "185.71.66.223:28121",
+      "name": "ST - Игровой 22",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-23",
+      "address": "185.71.66.223:28122",
+      "name": "ST - Игровой 23",
+      "categories": ["story"]
+    },
+    {
+      "id": "story-25",
+      "address": "185.71.66.223:28124",
+      "name": "ST #25 - Resident Evil 2",
+      "categories": ["story"]
     }
   ]
 }
