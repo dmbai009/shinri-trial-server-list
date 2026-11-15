@@ -31,7 +31,6 @@ export const messages = {
     playerUnavailable: "The server did not provide a public player list.",
     noPlayers: "No players in the latest snapshot.",
     partialPlayers: "Public names: {count}. The server may hide some players.",
-    score: "score",
     lastCheck: "Checked {time}",
     lastGood: "Last response {time}",
     never: "No successful query yet",
@@ -50,7 +49,6 @@ export const messages = {
     viewDetails: "View server details",
     lastChecked: "Last query",
     lastSuccessful: "Last successful response",
-    playerTime: "Time on server",
     playersSnapshot: "Players in the latest snapshot",
     helpTitle: "How to connect?",
     helpText:
@@ -121,7 +119,6 @@ export const messages = {
     noPlayers: "В последнем снимке игроков нет.",
     partialPlayers:
       "Публичных имён: {count}. Часть игроков может быть скрыта сервером.",
-    score: "счёт",
     lastCheck: "Проверка {time}",
     lastGood: "Ответ {time}",
     never: "Успешных проверок пока нет",
@@ -140,7 +137,6 @@ export const messages = {
     viewDetails: "Подробнее о сервере",
     lastChecked: "Последняя проверка",
     lastSuccessful: "Последний успешный ответ",
-    playerTime: "Время на сервере",
     playersSnapshot: "Игроки в последнем снимке",
     helpTitle: "Как подключиться?",
     helpText:
@@ -213,7 +209,6 @@ export const messages = {
     noPlayers: "В останньому знімку гравців немає.",
     partialPlayers:
       "Публічних імен: {count}. Частину гравців сервер може приховувати.",
-    score: "рахунок",
     lastCheck: "Перевірка {time}",
     lastGood: "Відповідь {time}",
     never: "Успішних перевірок ще немає",
@@ -232,7 +227,6 @@ export const messages = {
     viewDetails: "Докладніше про сервер",
     lastChecked: "Остання перевірка",
     lastSuccessful: "Остання успішна відповідь",
-    playerTime: "Час на сервері",
     playersSnapshot: "Гравці в останньому знімку",
     helpTitle: "Як підключитися?",
     helpText:

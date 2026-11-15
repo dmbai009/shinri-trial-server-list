@@ -140,16 +140,6 @@ function cardHTML(server, index, state) {
     <button class="row-detail-button" data-action="details" aria-label="${escape(t("viewDetails"))}">›</button></div>`;
 }
 let selectedServer = null;
-function duration(seconds) {
-  if (!Number.isFinite(seconds)) return "—";
-  const total = Math.floor(seconds);
-  return `${Math.floor(total / 3600)
-    .toString()
-    .padStart(
-      2,
-      "0",
-    )}:${Math.floor(total / 60) % 60 < 10 ? "0" : ""}${Math.floor(total / 60) % 60}:${(total % 60).toString().padStart(2, "0")}`;
-}
 function renderDrawer() {
   if (!selectedServer || !config) return;
   const server = config.servers.find((s) => s.id === selectedServer);
@@ -166,7 +156,7 @@ function renderDrawer() {
   const names = Array.isArray(data?.players) ? data.players : null;
   let players = `<p class="player-unavailable">${escape(data?.numplayers === 0 ? t("noPlayers") : t("playerUnavailable"))}</p>`;
   if (names?.length)
-    players = `<p class="player-note">${escape(t("partialPlayers", { count: names.length }))}</p><div class="player-table"><div class="player-table-header"><span>${escape(t("players"))}</span><span>${escape(t("score"))}</span><span>${escape(t("playerTime"))}</span></div>${names.map((player) => `<div class="player-row"><span>${escape(player.name)}</span><span>${Number.isFinite(player.score) ? escape(player.score) : "—"}</span><span>${duration(player.time)}</span></div>`).join("")}</div>`;
+    players = `<p class="player-note">${escape(t("partialPlayers", { count: names.length }))}</p><ul class="player-list">${names.map((player) => `<li>${escape(player.name)}</li>`).join("")}</ul>`;
   const content = $("#server-detail-content");
   content.dataset.id = server.id;
   const html = `<div class="drawer-body"><div class="detail-status"><span class="server-status ${kind}"><span class="status-dot ${kind}"></span>${escape(t(kind))}</span><span class="category-tag">${escape(server.categories.map((id) => config.categories.find((c) => c.id === id)?.label).join(" · "))}</span></div>

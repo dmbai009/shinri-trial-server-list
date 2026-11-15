@@ -857,33 +857,17 @@ dialog input {
   line-height: 1.7;
   margin: 5px 0 15px;
 }
-.player-table {
-  margin-top: 18px;
+.player-list {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 0;
 }
-.player-row,
-.player-table-header {
-  display: grid;
-  grid-template-columns: 1fr 45px 93px;
-  gap: 12px;
+.player-list > li {
   padding: 10px 0;
   border-bottom: 1px solid #493528;
-  font-size: 14px;
-}
-.player-row > span:first-child {
+  font-size: 16px;
+  line-height: 1.5;
   overflow-wrap: anywhere;
-}
-.player-row > span:not(:first-child) {
-  text-align: right;
-  font: 12px/1.8 monospace;
-  color: #c7a68c;
-  white-space: nowrap;
-}
-.player-table-header {
-  color: var(--muted);
-  font-size: 12px;
-}
-.player-table-header > span:not(:first-child) {
-  text-align: right;
 }
 .player-unavailable {
   padding: 20px;
@@ -1201,11 +1185,6 @@ dialog input {
   .detail-status .server-status {
     flex-basis: auto;
   }
-  .player-row,
-  .player-table-header {
-    grid-template-columns: 1fr 38px 82px;
-    gap: 8px;
-  }
   .toast {
     bottom: 16px;
   }
@@ -1251,14 +1230,6 @@ dialog input {
 .server-panel #detail-name {
   font-size: 22px;
 }
-.server-panel .player-row,
-.server-panel .player-table-header {
-  grid-template-columns: 1fr 35px 80px;
-  gap: 7px;
-}
-.server-panel .player-table-header {
-  font-size: 11px;
-}
 .with-details .server-row {
   grid-template-columns: 22px minmax(160px, 1fr) 75px 206px;
   gap: 14px;
@@ -1271,9 +1242,6 @@ dialog input {
 .server-card.selected {
   border-color: #c49575;
   background: #33241b;
-}
-.server-panel .player-row > span:not(:first-child) {
-  font-size: 11px;
 }
 @media (max-width: 1250px) and (min-width: 1001px) {
   .catalog-content.with-details {
