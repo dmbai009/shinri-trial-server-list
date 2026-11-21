@@ -1,0 +1,6766 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-21T12:01:23.306Z",
+  "lastSuccessAt": "2026-11-21T12:01:22.113Z",
+  "configUpdatedAt": "2026-11-15T13:42:49+02:00",
+  "servers": {
+    "ru-1": {
+      "address": "185.71.66.223:28015",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:17.318Z",
+      "lastSuccessAt": "2026-11-21T12:01:17.318Z",
+      "data": {
+        "name": "Лобби #1",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 84,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "EbatoR_KraPiv_987",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Пурик",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "wourty",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "просто друг",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "lyalyashaa!!",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Yut1su",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "душевнобольная",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "дьяволноситпраду",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ZEFI",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "CherryKCN",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "jopj09553",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "net это patrik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Dinbok",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "unkopih !!!",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "flopiebugg",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "pawlentiyy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "12",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "FoUr4",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "1kpskuka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "اryba4imS3dn7",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "табуретка",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Кукумбер",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Pleg1ck",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Мы Обя3аТельно ВстрЕтимСя^_<",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "rrich",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "LeonidB",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "зилерша",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "⭕⃤♡𐌋0𐌙𐌔𐌊1⭕",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Стеша",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "пепченько",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "angelicide",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sweet",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Umikol",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "S0D1RTY",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "toru",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "конфеты лёвушка",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Buld0zzzer",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "koreyabu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Шура Кварц",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ll1n4ka FKH",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Хасимото",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "orangeeeee",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "lusci",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Псина.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Elius",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "frosunda",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "semenoksana25@",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "_Kurtochka_",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Me0willa",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "M1lly..",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "EgorSigma",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "heltiva",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Львицы | youimeo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "fotikrok",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "душевнобольной",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "MGEgiperdrochila228",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "iimetra",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "veldivul",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Chernozem курмдык",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "фотографичка",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Akiyoru",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "uglysed",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "килька инвалидка",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "mango",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ren,WhyNot(?) [ Р е̷ эн ]",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "DIPER",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "LaFilozofo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ka0er",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Your Death",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sukmadih",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kari",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Вялый Сморч",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kasta",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-11": {
+      "address": "185.71.66.87:28015",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:17.375Z",
+      "lastSuccessAt": "2026-11-21T12:01:17.375Z",
+      "data": {
+        "name": "Лобби #2",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 85,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "YaKuT",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "mellwise",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "aks million",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ESI",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "GreenMoks",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "karton",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Горшок",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "хрюня",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ೈ𝑲𝒐𝒓𝒊𝒙𝒔!!ೋ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Cтаpый Лиc",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "vortex",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Nextati",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "A.O.D",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "♪𝓢𝓪𝔂𝓪𝓴𝓪✩",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Dipiaxe",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Сосок",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "merryChristmas",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sunflower",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Aichka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Липтуша",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "влад святой",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Shuichi's wife",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "FR3343V3R | apkaшa?",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "plaskeri",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Cucumbear",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sosisondebil",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "витусик",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "евгений займ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kerlin4ik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Cuprum_15",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Мишутка фурри",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ушко",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sisa pisa",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "frunt1ckov",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "суза",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "⦓spiral of contempt⦔",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "AriDayn",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "bлиkпиль",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Bruno",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "k0sh1",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Katenya2107",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "slvtcrvsher",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "риша мудота",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Di",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "errruko",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "besheniyhruk",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "☼︎ Ᏼᴧᴀднᴇʍᴀᴩ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ARC",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "rol",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Lil whatrushka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "К.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ＴＨＥ ＷＡＴＣＨＥＲ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "бобик",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "мунанан",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "саечка",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "akutoon",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Flower",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Темній Прінц",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "xemloxxx",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "bananchik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "tachycardia",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "corrupted angle",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "zavet ♬°",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Lemi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Jazzmun",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "BipolarBear",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "хирург",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "󠁳",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "жирный ла тао",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Verstappen prime",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "HOPOTO Uchiha",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Esperanza",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Yuka chan",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Musya 𖹭 ֶָ֢",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "nb a r",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "powerful bread",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "_kasand_",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Relkabelka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "VLADISLAVVVV",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "termmira",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Artem368",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Verlen",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-2": {
+      "address": "185.71.66.223:28017",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:17.392Z",
+      "lastSuccessAt": "2026-11-21T12:01:17.392Z",
+      "data": {
+        "name": "Лобби #3",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 100,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "kvK",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "eclipse",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "xllw",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "урюрь",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "фёдор двинятин",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kitkat",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Шизо",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Donald Trump",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "wheosy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ai ooto",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "rampiyam",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "mertviy v paris",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kelthuzed",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "banan_itsMe",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Mangoo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "тилибузик",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ksuiseba",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "В ВАШЕМ ПК ОБНАРУЖЕНЫ ЖУКИ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "𝓛𝓸𝓯𝓽𝓼𝔁",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "pisheblok",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Добрейший",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Laster_VX",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "수아",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "revushka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Reiknira",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "senko",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "keray",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ферси",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "MISOG1NA",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "TIMOSHA",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kiodze haxlite.ru",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sashaporoshok",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "r0сп0ди П0МNЛYЙ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "★",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Отец отцов",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Тарами",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "vovanhik67",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ttatssu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Zult_An",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "lampochka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kikitosic",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "iwolintshii",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "fillhu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Haiko",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Atlas_rima",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Dyrynow",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Курт Кобейн",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Забавность",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Floor11",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Омлет",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "reva",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "m3wooo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ch1chiu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "rich_ANGEL",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Байкалище",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Zefor",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Minolly",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ВЕЛИКИЙ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Hoshin",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "clumba42",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "GREAT BRITAIN",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "путана",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "diend👽👣",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "TTV | NataGoogle",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ᶻ 𝗓 𐰁",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Комод",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "annatkacenoko16",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "SadNerty",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ryusuzuya",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "GOGA_BIN",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Маскот светофора",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ларпик",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "MetalMadness",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "DEMONICUS",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "xreyn",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "hekpt",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ripllllll",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "омлет",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "yuko",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Hachi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "контуженная",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "servant.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Zehalovma",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Добрый кола | Rubbeq",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "WEB",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Чуркиз",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ThexFaraday",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Twelka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "POPI",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "B@RT",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "solace",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "KitoriOri",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "澹￤﹫ va͟n͟.❕",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Александр-ович",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "cherry",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "cryinrn",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Zander_",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-12": {
+      "address": "185.71.66.87:28016",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:17.316Z",
+      "lastSuccessAt": "2026-11-21T12:01:17.316Z",
+      "data": {
+        "name": "Лобби #4",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 40,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Tarо",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "DevMagician",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "пуф",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kami",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "mhayng93yoo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "eblanyx",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Селя",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "lolo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "SKP: 最強 Z1KeR0 最大",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "пупзякова",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Enmu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "[ IV ]",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "МАЙР",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kартошка",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "хлорка228",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "jympafyrks87",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "meloman",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "lubniki228",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "lunavelle",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Tora",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Setzu31",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "8u8u8",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Dante",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "misakiarle",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "мои руки когти",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "хочу огурец 2",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kuku",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "corrozer",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "D00RD00M",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "дрянь",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Du$k",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "hllk11",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kirieshking",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "man boobs",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "૮꒰ ˶• ༝ •˶꒱ა ♡",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Val",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-3": {
+      "address": "185.71.66.223:28019",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:17.307Z",
+      "lastSuccessAt": "2026-11-21T12:01:17.307Z",
+      "data": {
+        "name": "Лобби #5",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 38,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "нАхУюНаМоТаНо?!?",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Dawn_Nobu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Meosh1ki",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "гетрикс11",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Lirika.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Harlequin",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "lumen",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kischenyy_Palochka⁷⁷",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Мара",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "FameW",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ballerryy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Umbra",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ultimate despair",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Coteesi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "SexySWAG",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "лега лихач",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "وافل",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ReMark",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ronnie",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "jenia",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ketsu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "shikourain",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kerllet",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Vinnar",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kaunanir",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ochirok",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "стридор",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "афывывцй",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sasalele",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "GOLAYAWOMAN",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Teyavi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "архиепископ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "paliceyskisanya",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "iqмакс",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Chopper?gg",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Vlados",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "fufic",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-13": {
+      "address": "185.71.66.87:28017",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:17.234Z",
+      "lastSuccessAt": "2026-11-21T12:01:17.234Z",
+      "data": {
+        "name": "Лобби #6",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 3,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "EgorQwwe4",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "darkzanro_",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "икона_жира",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-4": {
+      "address": "185.71.66.223:28021",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:17.332Z",
+      "lastSuccessAt": "2026-11-21T12:01:17.332Z",
+      "data": {
+        "name": "Лобби #7",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 8,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "злая няша",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Katto",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "rodermig",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Xsenas",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "y.katsuki",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Sacrifice",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Mabxyu",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-14": {
+      "address": "185.71.66.87:28018",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:17.310Z",
+      "lastSuccessAt": "2026-11-21T12:01:17.310Z",
+      "data": {
+        "name": "Лобби #8",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 13,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "svinota",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Want to win",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "KESHA",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "валентина ветмо",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Spectral",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Nick_Wick",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "rirecchi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "seraphin",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "lyxfair",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "HeadShoot",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Parasmatick",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Azuri",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "mastren",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-6": {
+      "address": "185.71.66.223:28023",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:17.417Z",
+      "lastSuccessAt": "2026-11-21T12:01:17.417Z",
+      "data": {
+        "name": "Лобби #9",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 19,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Kurimeidh",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Опка",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kmmorley",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "редбул",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "im obsessed with you゜zｚＺ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "лоферли",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Hellraiser",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "平凡",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "[.👾♱Y0∆ DEα|]♱#RPD👾",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Пончик?",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Shico",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Jinbutsu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Karasik_infj",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Rize_Chaos",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Chehsik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kitshi888",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "XqLotus",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Natsuki",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Revivus",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-15": {
+      "address": "185.71.66.87:28019",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:17.239Z",
+      "lastSuccessAt": "2026-11-21T12:01:17.239Z",
+      "data": {
+        "name": "Лобби #10",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 64,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "bezmatka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Близняш",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "токки",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "h1zeee",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "monya",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Boykiller :3",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "v3xzd1",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Skazochnik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "murasama",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "gusyapks",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "slava87",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Akira...",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ⲃᥲⲭⲧᥱρɯᥲ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Hegrit",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "zxc vladik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "bodyn5rv",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "неженка амням",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "dzoliwer12",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "BE4V3RZ ...[CTPAX13]...",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "𐙚klepiik ♪",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Hen",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "FraNYYAA13",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ashi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "monicuqq",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Bexliifu 🩷",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "𝕱𝖔𝖝𝖊𝖓",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Daryanna",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "TheTeahun",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Em0_ChEEks",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Y1nz",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "fulltilt",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Hin__",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Пич",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Agent Sm1t",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Admiral_Petarda",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Чингиз Ямальский",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "hamster bro",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Յճօյ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Nightingale",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kairat",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kigaii",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Я веган !!!!",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sin_say",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "fkuven",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ручке",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "христайло",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "C1troel",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "daviplayti",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "the_sl4yer",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Osiris",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "memeneno1",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "《 ♤JosI | JOKER ♤》",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "мама жирухи123",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "proxyoma",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Eitothing",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "zertix",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Lem1xgodnesscomplex",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Zesis",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-8": {
+      "address": "185.71.66.223:28098",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:17.898Z",
+      "lastSuccessAt": "2026-11-21T12:01:17.898Z",
+      "data": {
+        "name": "Лобби #11",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 10,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "TBOЙ_OTЧИM",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Спасибо",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "rinnets",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "люсурка",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kilbe",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "стерва",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ТВАРИНА",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "куст",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ton4a",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-16": {
+      "address": "185.71.66.87:28020",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.156Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.156Z",
+      "data": {
+        "name": "Лобби #12",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 52,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "DeLeon",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "𝓪𝓼𝓴𝓪𝓵𝓮𝓷𝓰",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "TREKS",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Да_Бля.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "アギー",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Homedrocher",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "vettka.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Перфоратор",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "SH4RIK",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "MartinInsade",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Karma",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "niko",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Skadi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Boom :D",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "meishi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Marinnn :3",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "GeneralKashel",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Dinarii",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "2Pidu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "MEEM_24",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "actrisa",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "NORi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "shuishi xd.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "BlutVene",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "yugonbetter",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "yakitosha gandosha",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "с старше 10 не ебус",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Psycho",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Flostik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "маминдоксер228",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "PrexDed",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "傻子пупок67",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Rozetka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Mr.Alias",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Candy Lover <3",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kpopkid",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "mozg sgnil",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Moki",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Лыжник",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Stelllka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "GG_Darret",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "🔷꒰აᥴ0ιᥒ໒꒱",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Asukaevq",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Sa1cor",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Cen Kanzaki",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "хлебушек",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "tramker",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-9": {
+      "address": "185.71.66.223:28100",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.232Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.232Z",
+      "data": {
+        "name": "Лобби #13",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 18,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "diysss",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Металлоискатель",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "! .ゆきてるまさい",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Макаруна",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "bruh_12",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kalor",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "M1NT3D",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Maksik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "korperteile",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Llirik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Simaayo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "EndieCat",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Пипипер",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "iehf MoriM",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Грусный Бурито",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "𝄞  mariisuru",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-17": {
+      "address": "185.71.66.87:28021",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:17.991Z",
+      "lastSuccessAt": "2026-11-21T12:01:17.991Z",
+      "data": {
+        "name": "Лобби #14",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 57,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "WSBGoTo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "L0st_Forever",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "стендоферша",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Rei_ ayanami",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ярикпсихпокойо",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "senkocoil",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "витясикссевен",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "水子🌊🦈𓍢ִ✧",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "disha",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "TropyKey",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "напісяла",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ziroPiX_yaa",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ZXC вoлoдя гyль sf king",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "OKPOWKA",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Not_name",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "варя туолет",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "6374 days without sex",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ru00SSka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kosharik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ruruhime",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "IMSAD",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "СЛИВЫЫЫЫЫЫ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "миптоша",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ГенералЗавода№4",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "gluttony",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "dene",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Lentepo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "кичи очарователь",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "UnbelievablePinkDinner",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "prospektor",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Мандарин4ик",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "OvaNere",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "тапок",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "celi⁸ᵃᵗᵉ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "lovs_botox",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "котян",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Shark_KYB",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "frisson.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "шуаке бог",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Way",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ТРАХБОЙ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "fweatures.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "mona_dota2",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "markov.andrew",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kasane Teto",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "кислотный вадим",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "svafftey",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "toyanyway",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kroih",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ralex",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Raffi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "TheSky1e",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "dedkeril",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "OMGkawaiiAngel",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-10": {
+      "address": "185.71.66.223:28102",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.269Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.269Z",
+      "data": {
+        "name": "Лобби #15",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 8,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Sharikk",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "безобразие",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Batshavik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Monody",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "manu:3",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Omori666",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Мивоха!",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-18": {
+      "address": "185.71.66.87:28022",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.273Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.273Z",
+      "data": {
+        "name": "Лобби #16",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 12,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Frostik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Xapec",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Дазроперма",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "tricksed",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sofac1ka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "𝕆𝕧𝕖𝕣 𝕏ℙ𝟜",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Виноградный мудр",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Mayonez",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Рандом гай",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "диша",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "korfal",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-5": {
+      "address": "185.71.66.223:28022",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.259Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.259Z",
+      "data": {
+        "name": "Лобби #17",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 21,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Смотрю на рыгало",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Chip",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Минетчик на заказ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "愛らしい甘い宇津木琴",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "greengoo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Человек шапка",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "John Danganronpa",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Chara",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Pewera_ugr",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "zahar.pidor6767",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Хрустолапая Кoшка",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Domestic",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "winknow^^",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "MR.CHEESE",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "CirnoStrong",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Angi arthropod",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "yuubeesimp",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Nikartal",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Matracina",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kiryxawin",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "баунти",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-19": {
+      "address": "185.71.66.87:28023",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.123Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.123Z",
+      "data": {
+        "name": "Лобби #18",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 7,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "ROZARIA_",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Solanine",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "!!Narkosha",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "TaironYT",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "yui4ka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Lawton_Blaker",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "капитанша?",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-7": {
+      "address": "185.71.66.223:28024",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.225Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.225Z",
+      "data": {
+        "name": "Лобби #19",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 1,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "квекусик",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-20": {
+      "address": "185.71.66.87:28024",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.202Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.202Z",
+      "data": {
+        "name": "Лобби #20",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 25,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "PivoYasher228",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Stalker",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "gnida",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ZombieILD",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "jonaduiyiyu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "nixx",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Tractor",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "vavneon",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kayori",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kyrkaq",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Can i take a picture?3",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "𒍫‏ᴍᴀ𝓡ᴍᴇʟᴀ𝓓",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "RAPEF3LONY",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Randorii",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "nekoparfaitdes",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Бонзибадди",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "feilzil",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "hcirs",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Camelliqa",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "violin",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Veltruvi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "EH0T1K",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Dantea",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "arturkenote3234",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "moni</3",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-21": {
+      "address": "186.246.32.31:28015",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.418Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.418Z",
+      "data": {
+        "name": "Лобби #21",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "ru-22": {
+      "address": "186.246.32.31:28016",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.528Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.528Z",
+      "data": {
+        "name": "Лобби #22",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 13,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Akito-kun",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "harumaki",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "VoronaCARRR",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Hikamotto",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "7 minutes",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "viwdq",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kevi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ꨄ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kynicfm",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "INsomniaSIDE",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Анчоус Ф.Ф",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Monikist",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-23": {
+      "address": "186.246.32.31:28017",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.703Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.703Z",
+      "data": {
+        "name": "Лобби #23",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 3,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Kami",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "notizzy l Gohgo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "katt",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-24": {
+      "address": "186.246.32.31:28018",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.816Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.816Z",
+      "data": {
+        "name": "Лобби #24",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "ru-25": {
+      "address": "186.246.32.31:28019",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.868Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.868Z",
+      "data": {
+        "name": "Лобби #25",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 1,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "mks",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-26": {
+      "address": "186.246.32.31:28020",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:19.065Z",
+      "lastSuccessAt": "2026-11-21T12:01:19.065Z",
+      "data": {
+        "name": "Лобби #26",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 5,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Hell",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "7 minutes",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Daster",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "DimaMine",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "KOTOFLYA",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-27": {
+      "address": "186.246.32.31:28021",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:19.005Z",
+      "lastSuccessAt": "2026-11-21T12:01:19.005Z",
+      "data": {
+        "name": "Лобби #27",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 2,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "=chekushka13=",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Tokyo_Gang",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "ru-28": {
+      "address": "186.246.32.31:28022",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.978Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.978Z",
+      "data": {
+        "name": "Лобби #28",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "ru-29": {
+      "address": "186.246.32.31:28023",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:19.092Z",
+      "lastSuccessAt": "2026-11-21T12:01:19.092Z",
+      "data": {
+        "name": "Лобби #29",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "ru-30": {
+      "address": "186.246.32.31:28024",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:19.071Z",
+      "lastSuccessAt": "2026-11-21T12:01:19.071Z",
+      "data": {
+        "name": "Лобби #30",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 3,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Luxion_XD",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kirya",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kano Shuuya",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "global-1": {
+      "address": "203.23.179.220:27015",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.914Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.914Z",
+      "data": {
+        "name": "Lobby #1",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 90,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "HMS Elizabeth",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Brumaire",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Rerg",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "☆Nova",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Yumixxii",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "羽天",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Seven",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "采2",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "。。",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "1953906593",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "苦涩的茶",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "侯孝",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "3819746329",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "stars",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Face-Melting Armpit Fetish",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Veek",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "chief queef",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "神户小鸟",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "樱木花道",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Lowkey",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Vixen",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "зірниця",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sonia nevermind",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "lubing",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Lapwing",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Scuddo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "AJhkris",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "aburry023",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kiwiyitia",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kyle",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "mizuu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "terrryy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "3645996817",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Tideman",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "all4god1234",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Nilhilarian.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "*Cookie*",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "TemdoesSpeedruns",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "星瞳",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ck5000005",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "小白",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "BaiYang",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "vex",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Jay",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Shudo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Tid",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Mabel.Kyan",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Hairy Buttleak",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "burrsis",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Group",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Dang Sen Sei",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "3588640787",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "百步穿杨黑部奈叶香",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Stevevano",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "darkvan50",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "balse",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Lov3Ame",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Deggo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "同机同机",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Jiji",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ToDefeatEvil",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "北宇治第一拳皇久石奏",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "obam",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "SZNS.教主",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Profikiller10",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "opentabs_",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "netherlakes",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ToastyMaple",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Consapevolezza",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Captain Obvious",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "QiakiChu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "玲",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "RIN!!!",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Sayori-Echo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "luminaether5",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "veliana",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "zeldacdidinner",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "科比布莱恩特",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "S1Mon",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "AreYouCoping",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "KOKICHI OUMA",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "XenonGaming19",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kudo⁴⁸⁶⁹",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "她求我别塞冰块",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "⌜Sky⌝",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "暮雨星光",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Mercutio",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "魂离悠然",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "global-2": {
+      "address": "203.23.179.220:27016",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.798Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.798Z",
+      "data": {
+        "name": "Lobby #2",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 69,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "uncry",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Yi Sang [Endermaru]",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Aqua Friend 123!",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Anuko_Lau",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "raincandy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kitty",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "rosebuddy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "pennynickelfartboy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Blaster1216",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "xyn",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Phoenix Whisper",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Youngstar",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "netzent",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "JamerGosh",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Shu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Gabe",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "twicecast",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "k4rmav1rus",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Dio不懒惰",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "霸气薯饼",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Nagimi Shirase",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kiibo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Masence",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ravenyri",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "emnxmo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Humuhumunukunukuapu'a",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Knifey",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "glorynosekai",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Cosmic_Nagito",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Velvet_rose13",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "anchello",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "朝阳",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Gaygay's Pikachu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "血树先生",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "melodyisaname",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "上杉绘梨衣",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "夜旅哀屋",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "lu ﾒ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "艺清",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "jihezhiye123456",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "pomi owo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "tptp1447",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Qlex1s",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "yoitsjj",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "mykkvx",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ardv2",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "M0cca",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "P1nkaliens",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Immy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "PeacefulM",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Good Boy Wendigo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "WaterDragon_L",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ADEL A E @KING#",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "奈亚子霹雳狱火斩业杀",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "yes",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Gia",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "DoggieForest",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Speachy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Mika",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "emma",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Astonicus",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Reagan",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "comic.brownieeeeeee",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Gordon",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Rudo_",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Robbed Final Girl",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "碎蕉蕉",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "global-3": {
+      "address": "203.23.179.220:27017",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:18.867Z",
+      "lastSuccessAt": "2026-11-21T12:01:18.867Z",
+      "data": {
+        "name": "Lobby #3",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 65,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Mew",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "mitsurikanrojilovers1",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Okamoo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kawaii baby boo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "dante",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "xin",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "wampyr",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "miyowwpi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "WatermelonSPK",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Runa",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Zlinkra",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Chocoroll",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Yyzl.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "盐瓶",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "DoughChim",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "menhera",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Sirenia",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "aelvix0101",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Solaris",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Carpitogod",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "0Vinny_0",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Somwan catmeow",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "evil ass bunny",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "普通人",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "SoulWolfx",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "pommecore",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Twofiftyfive",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Useriina",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "乔鲁诺11",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "zClqwn",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "pest",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "alex goated 16#goatedshi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "lavender",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Yugamu Omokage",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "klouted",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Sharpy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kiru",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "𓆑",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "arshinvaghef",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "MeI0dy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ayshila",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "CyanideLyme_",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kita",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Lily",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "AC打gogo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Mejiro Ardan",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "seeyoubyebye",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Wario is named WARIO",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "tifflve12",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "robi39",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Mr Blue",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "MohSA",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "124372417",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "JO_7721",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Jamolloza",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "YONO",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Jay-X-seyer",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "imi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Zach",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "global-4": {
+      "address": "203.23.179.220:27018",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:19.098Z",
+      "lastSuccessAt": "2026-11-21T12:01:19.098Z",
+      "data": {
+        "name": "Lobby #4",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 13,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Tung Tung Tung Sahur.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "theantihydro",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "felixisancat",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ARVEN!",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kore",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "WeepingJoker",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Peargems",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kazumeow",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "macfire19",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "卡琪",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Snowkie",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "NotSoGoodGamer",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "global-5": {
+      "address": "203.23.179.220:27019",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:19.063Z",
+      "lastSuccessAt": "2026-11-21T12:01:19.063Z",
+      "data": {
+        "name": "Lobby #5",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 7,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "nohairboy06",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "难道说你们,不想无敌吗",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Eddie",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "shaasudesu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "爱思可莉姆Official",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kelthegreat09",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "你已经死了",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "global-6": {
+      "address": "203.23.179.227:27036",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:19.477Z",
+      "lastSuccessAt": "2026-11-21T12:01:19.477Z",
+      "data": {
+        "name": "Lobby #6",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 1,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": " ( 레이 ) — ‘ray",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "global-7": {
+      "address": "203.23.179.227:27037",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:19.467Z",
+      "lastSuccessAt": "2026-11-21T12:01:19.467Z",
+      "data": {
+        "name": "Lobby #7",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "global-8": {
+      "address": "203.23.179.227:27038",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:19.756Z",
+      "lastSuccessAt": "2026-11-21T12:01:19.756Z",
+      "data": {
+        "name": "Lobby #8",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "global-9": {
+      "address": "203.23.179.227:27039",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:19.735Z",
+      "lastSuccessAt": "2026-11-21T12:01:19.735Z",
+      "data": {
+        "name": "Lobby #9",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "global-10": {
+      "address": "203.23.179.227:27040",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:19.737Z",
+      "lastSuccessAt": "2026-11-21T12:01:19.737Z",
+      "data": {
+        "name": "Lobby #10 | Start Here",
+        "map": "shinri_lobby_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "media-1": {
+      "address": "185.71.66.223:28128",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.008Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.008Z",
+      "data": {
+        "name": "ST - Media 1",
+        "map": "dro_hopespeak_v3",
+        "numplayers": 2,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Bot 1",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Apollyo",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "media-2": {
+      "address": "185.71.66.223:28129",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.096Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.096Z",
+      "data": {
+        "name": "ST - Media 2",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "media-3": {
+      "address": "185.71.66.223:28130",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.050Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.050Z",
+      "data": {
+        "name": "ST - Media 3",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "media-4": {
+      "address": "185.71.66.223:28131",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:19.859Z",
+      "lastSuccessAt": "2026-11-21T12:01:19.859Z",
+      "data": {
+        "name": "ST - Media 4",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "media-5": {
+      "address": "185.71.66.223:28132",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:19.969Z",
+      "lastSuccessAt": "2026-11-21T12:01:19.969Z",
+      "data": {
+        "name": "ST - Media 5",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "media-6": {
+      "address": "185.71.66.223:28133",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.196Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.196Z",
+      "data": {
+        "name": "ST - Media 6",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "media-7": {
+      "address": "185.71.66.223:28134",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.186Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.186Z",
+      "data": {
+        "name": "ST - Media 7",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "media-8": {
+      "address": "185.71.66.223:28135",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.456Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.456Z",
+      "data": {
+        "name": "ST - Media 8",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "media-9": {
+      "address": "185.71.66.223:28136",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.427Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.427Z",
+      "data": {
+        "name": "ST - Media 9",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "media-10": {
+      "address": "185.71.66.223:28137",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.336Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.336Z",
+      "data": {
+        "name": "ST - Media 10",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "story-1": {
+      "address": "185.71.66.223:28045",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.578Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.578Z",
+      "data": {
+        "name": "ST #1 - Добрым молодцам... урок? (#1591)",
+        "map": "rp_chernozemsk-2_snow",
+        "numplayers": 25,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Kun.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "виталя майами",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Heold",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "akaky",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Vanilla",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Alpi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Dad_Shok",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Choppa",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "mитаmи",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Cool_Man",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kamaeba",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "The Light",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "МонакаМанип",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sumimizu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Mr.Roze1ka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Rogue",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "аферист",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ami",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "cheesecreamn",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "monyanyan",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "туберкулезная ба",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "DарьY",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Plankton",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-2": {
+      "address": "185.71.66.223:28046",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.697Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.697Z",
+      "data": {
+        "name": "ST - Игровой 2",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "story-3": {
+      "address": "185.71.66.223:28047",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.738Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.738Z",
+      "data": {
+        "name": "ST - Игровой 3",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "story-4": {
+      "address": "185.71.66.223:28048",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.693Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.693Z",
+      "data": {
+        "name": "ST - Игровой 4",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "story-5": {
+      "address": "185.71.66.223:28049",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.680Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.680Z",
+      "data": {
+        "name": "ST - Игровой 5",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "story-6": {
+      "address": "185.71.66.223:28050",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.768Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.768Z",
+      "data": {
+        "name": "ST - Игровой 6",
+        "map": "gm_ibm_corperate_retreat",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "story-7": {
+      "address": "185.71.66.223:28051",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.797Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.797Z",
+      "data": {
+        "name": "ST #7 - Lobotomy danganronpa: The Starfall Edition.",
+        "map": "lab_secret_laboratory",
+        "numplayers": 30,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Inaff",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "PC-CLUB ASTRONOM PC-14",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Пиводур",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Lupin III",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "MoskesAcabe",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ruychiko",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "shiari C-137",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Бдсм_queen",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Rory322",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Wyffu",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "de_survivor",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ʙʟᴀᴄᴋꜰʟᴀᴍᴇᴋ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Gingrr",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Adik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "кисакиса инцesta мя",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "RaveMan",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "AgniaSeraphim",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "колося",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "NaKanno",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Russsss2005",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ryu Ishigori",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Пухлый Аристокра",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Mr.Bich",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Longeres",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "НикитаБигСмоук42",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "КУРЬЕЗЙОУ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "КАБЕЛЬЩИК ДЖОН",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Макимари Айзо",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "MoriFran",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Mc AM",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-8": {
+      "address": "185.71.66.223:28052",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.893Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.893Z",
+      "data": {
+        "name": "ST #8 - Крик",
+        "map": "rp_southside",
+        "numplayers": 5,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Elizabeth C.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "GrimDays",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "murphy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "vee.",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "[6Squad9]TheSp1der",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-9": {
+      "address": "185.71.66.223:28053",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:20.993Z",
+      "lastSuccessAt": "2026-11-21T12:01:20.993Z",
+      "data": {
+        "name": "ST #9 - Danganronpa Another history",
+        "map": "shinri_academy_202611171",
+        "numplayers": 18,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "lunnikot",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Rimiri.bao",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Payas0o",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "milka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Fa3aN",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "=Панин_love_hotdog=",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "faust",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Sae",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "K1W1K",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "пикминяшка2007",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Катя_НеДающая",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Firyallou",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Неизвестный",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "fzx",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kris",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Horizon_Legacy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Рыгалов",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Саня_Абьюзер",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-10": {
+      "address": "185.71.66.223:28054",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:21.128Z",
+      "lastSuccessAt": "2026-11-21T12:01:21.128Z",
+      "data": {
+        "name": "ST #10 - 'И никого не стало'",
+        "map": "dro_hopespeak_v3_noprops",
+        "numplayers": 18,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "S1rota ZXC coil",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Даня ВКУиНТ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Shpulya♥",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Авантюрист",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Shirsh",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "cuhka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "soLImxw",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Чёрная плесень",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "rozalivenss",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "乇卩丨匚尺乇ㄚ43尺",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "alenablyat",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "mixa.nekto",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "БЬЯКУЯ МАЛФОЙ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "𝑅𝑜𝑛𝑎𝑙𝑑_𝑇",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Памперс",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "темный ангел",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "♡ Shichi ♡",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-11": {
+      "address": "185.71.66.223:28143",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:21.114Z",
+      "lastSuccessAt": "2026-11-21T12:01:21.114Z",
+      "data": {
+        "name": "ST #11 - Искатели могил",
+        "map": "gm_grave_encounters_co3d",
+        "numplayers": 21,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Dekard",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "TheSun",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Gloxy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "CrewCrew",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Insight",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Forse_C",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "燐子ᗜˬᗜ",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Драчомен",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Tilox",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "SLAY52",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ᴀᴅᴏᴄʜᴋᴀ 𑄝੭",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "kcucuci",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "grushku",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "winterxva",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ZUI",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "5UNF0W3RT",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Nion Pivo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "qnha",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sooquaveys",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Gllochka",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-12": {
+      "address": "185.71.66.223:28144",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:21.450Z",
+      "lastSuccessAt": "2026-11-21T12:01:21.450Z",
+      "data": {
+        "name": "ST #12 - Danganronpa: Rewrite",
+        "map": "shinri_academy_202611171",
+        "numplayers": 17,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Сашка уютность",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Заяц",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kamavai",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "The end",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Yakov",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ПЕНСИЯ (dedok)",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Fleshka",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Tatsu-Yoo",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Quicen",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "а где чай",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kishhsa",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Purplecat",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Spawn_Love",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "canekkeitivich",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Деми",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "vecospi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "뭔가 한국어처럼",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-13": {
+      "address": "185.71.66.223:28145",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:21.302Z",
+      "lastSuccessAt": "2026-11-21T12:01:21.302Z",
+      "data": {
+        "name": "ST - Игровой 13",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "story-14": {
+      "address": "185.71.66.223:28146",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:21.641Z",
+      "lastSuccessAt": "2026-11-21T12:01:21.641Z",
+      "data": {
+        "name": "ST #14 - It's Your Turn To Die",
+        "map": "mu_danganronpafunhouse",
+        "numplayers": 21,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Жемчуг",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Tonik_Kurt",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Jetrixx",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "YIM",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Есенин",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ahesam",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "jjmeown",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "nirro | huyyttaaa",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "f1ddlestiix",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "popokuma",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "мама твоя",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "wolkpk",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "spikedzavz",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ванильный чел",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "мямеX_x",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "R-7N4",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "palli",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "darknesenn",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Chipsina 666",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "itzatopy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "jadegoyle",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-15": {
+      "address": "185.71.66.223:28147",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:21.427Z",
+      "lastSuccessAt": "2026-11-21T12:01:21.427Z",
+      "data": {
+        "name": "ST #15 - Правда ли любовь существует?",
+        "map": "gm_differentconstruct",
+        "numplayers": 13,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "CHARS",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Willow",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "⋆⊹₊фисташkа₊⊹",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "кошкожена",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sunder",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "ORMA",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Счастливая мысля",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "fooooooy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "изя",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Js",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "пикми-кун",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Кешос",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "абрикос",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-16": {
+      "address": "185.71.66.223:28115",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:21.645Z",
+      "lastSuccessAt": "2026-11-21T12:01:21.645Z",
+      "data": {
+        "name": "ST #16 - Лабиринт разума",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "story-17": {
+      "address": "185.71.66.223:28116",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:21.478Z",
+      "lastSuccessAt": "2026-11-21T12:01:21.478Z",
+      "data": {
+        "name": "ST #17 - Пять ночей в ПВЗ",
+        "map": "rp_southside",
+        "numplayers": 12,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "KOTARIKA. ^_^",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Aruru",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "NicoRini321V",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Solzhe",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "YukiDragnil",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "dixstrux_x",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Golden_Tomboy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kameny_not_hehe",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "TonaPoTa",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "∂ємι",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Дед Лёня",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "NaruLons",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-18": {
+      "address": "185.71.66.223:28117",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:21.539Z",
+      "lastSuccessAt": "2026-11-21T12:01:21.539Z",
+      "data": {
+        "name": "ST #18 - Осколки бытия",
+        "map": "gm_floatingworlds_3",
+        "numplayers": 4,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "ぼっちちゃん",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "miniQT",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Calypso",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Многоимённый",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-19": {
+      "address": "185.71.66.223:28118",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:21.759Z",
+      "lastSuccessAt": "2026-11-21T12:01:21.759Z",
+      "data": {
+        "name": "ST #19 - Клевый фестиваль пельменей",
+        "map": "rp_acn_london",
+        "numplayers": 23,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "шушунчик",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Ashling",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "DURILA",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "om✿nom",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Assasans",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Бєларўсь",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Россiя",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Adm1H",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "HATI",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Mora",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Да, я посрал!",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Яндекс Похороны",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kley",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "koniplyass",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Shio",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Денди Володи",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "suo. . .",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Женя Леклер",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "hiryrgonelove",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-20": {
+      "address": "185.71.66.223:28119",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:21.851Z",
+      "lastSuccessAt": "2026-11-21T12:01:21.851Z",
+      "data": {
+        "name": "ST #20 - Тик-так",
+        "map": "shinri_academy_202611171",
+        "numplayers": 14,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "Simon | Саймон",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Бомж9000",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Octopode Generale",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Uanne",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Misty sugar ☆",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "MrH4nky",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Nihilas",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Нишимуро",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Kit",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Diofer",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Bananchik",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Franck_Cat",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Staiper",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "andre",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-21": {
+      "address": "185.71.66.223:28120",
+      "queryPort": null,
+      "status": "unreachable",
+      "checkedAt": "2026-11-21T12:01:23.306Z",
+      "lastSuccessAt": "2026-11-19T17:06:22.162Z",
+      "data": {
+        "name": "ST - Игровой 21",
+        "map": "zs_abandonedmall_2025_v6",
+        "numplayers": 1,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "dosi",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    },
+    "story-22": {
+      "address": "185.71.66.223:28121",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:21.821Z",
+      "lastSuccessAt": "2026-11-21T12:01:21.821Z",
+      "data": {
+        "name": "ST - Игровой 22",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "story-23": {
+      "address": "185.71.66.223:28122",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:21.964Z",
+      "lastSuccessAt": "2026-11-21T12:01:21.964Z",
+      "data": {
+        "name": "ST - Игровой 23",
+        "map": "shinri_academy_202611171",
+        "numplayers": 0,
+        "maxplayers": 100,
+        "password": false,
+        "players": null
+      }
+    },
+    "story-25": {
+      "address": "185.71.66.223:28124",
+      "queryPort": null,
+      "status": "online",
+      "checkedAt": "2026-11-21T12:01:22.113Z",
+      "lastSuccessAt": "2026-11-21T12:01:22.113Z",
+      "data": {
+        "name": "ST #25 - 'Счастье будет вечным'",
+        "map": "rp_pure_lake",
+        "numplayers": 19,
+        "maxplayers": 100,
+        "password": false,
+        "players": [
+          {
+            "name": "lilico",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "sooorry",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "СилаЗемли",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "v1ofola",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "shavelka01",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Наполеон",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "tsumi",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "√ABy",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Meowlissa0",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "medplay 1980",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "dumb cunt",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Опытный зонбе",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Tenko_Chabashira",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Cutik <3",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Luminary of the Stars!",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Дурилла Дурдурка",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Пикмучи Любит Drugs",
+            "score": 0,
+            "time": 0
+          },
+          {
+            "name": "Beliver_34",
+            "score": 0,
+            "time": 0
+          }
+        ]
+      }
+    }
+  },
+  "collection": {
+    "startedAt": "2026-11-21T12:01:16.242Z",
+    "durationMs": 7064,
+    "successful": 73,
+    "failed": 1,
+    "previousGeneratedAt": "2026-11-21T11:56:21.718Z",
+    "gapSeconds": 302,
+    "changedServers": 33,
+    "changedPlayerCounts": 30,
+    "changedPlayerLists": 31,
+    "contentHash": "ea55e17d65c849f8c2da904f8725a2d03af1601474cfdcb5f555c8a78ea9b976",
+    "runUrl": "https://github.com/dmbai009/shinri-trial-server-list/actions/runs/44901799464",
+    "trigger": "workflow_dispatch",
+    "revision": "17beb63d667ecb7bf72bb470bc270f7deb0b0bef"
+  }
+}
